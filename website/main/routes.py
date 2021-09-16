@@ -1,5 +1,4 @@
 from flask import render_template, request, Blueprint
-from website.models import Post
 
 main = Blueprint('main', __name__)
 
